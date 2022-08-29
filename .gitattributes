@@ -1,0 +1,13 @@
+# Default
+*               text=auto
+# Explicit
+*.ini           text eol=lf
+*.json          text eol=lf
+*.md            text eol=lf
+*.php           text eol=lf
+*.sql           text eol=lf
+*.lock          text eol=lf
+# Git
+.gitattributes  text eol=lf
+# Binaries
+*.png           binary

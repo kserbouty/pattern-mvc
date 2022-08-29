@@ -1,0 +1,14 @@
+{
+    "name": "archive/mvc-php",
+    "autoload": {
+        "psr-4": {
+            "Archive\\Mvc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karim Serbouty",
+            "email": "kserbouty.dev@protonmail.com"
+        }
+    ]
+}
