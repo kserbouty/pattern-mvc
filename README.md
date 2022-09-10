@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Module to buy vehicles, in order to combine MVC with others patterns.
+Vehicle purchase module in order to associate MVC with others patterns.
 
 ## Installation
 
@@ -44,4 +44,4 @@ Karim Serbouty
 
 ## License
 
-[MIT License](.LICENSE.md)
+[MIT License](/LICENSE.md)
