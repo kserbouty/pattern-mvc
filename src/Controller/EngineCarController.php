@@ -1,19 +1,15 @@
 <?php
 
-namespace Archive\Mvc\Controller;
+namespace Mvc\Controller;
 
-require_once __DIR__ . '/../../vendor/autoload.php';
-
-use Archive\Mvc\Model\EngineCar;
-use Archive\Mvc\Database\EngineCarMapper;
+use Mvc\Model\EngineCar;
+use Mvc\Database\EngineCarMapper;
 
 class EngineCarController
 {
-    public function request(string $uri)
+    public function index()
     {
-        if ($uri === '/') {
-            return include('../src/View/EngineCarView.php');
-        }
+        return include(__DIR__ . '/../View/EngineCarView.php');
     }
 
     public function order(array $post): void
@@ -27,7 +23,7 @@ class EngineCarController
             $post['discount'],
             $serial,
             $post['engine']
-        );
+            );
         $order->save();
     }
 

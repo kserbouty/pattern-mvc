@@ -1,8 +1,8 @@
 <?php
 
-namespace Archive\Mvc\Interface;
+namespace Mvc\Contract;
 
-use Archive\Mvc\Model\EngineCar;
+use Mvc\Model\EngineCar;
 
 interface CarMapper
 {

@@ -2,7 +2,7 @@
     "name": "archive/mvc-php",
     "autoload": {
         "psr-4": {
-            "Archive\\Mvc\\": "src/"
+            "Mvc\\": "src/"
         }
     },
     "authors": [

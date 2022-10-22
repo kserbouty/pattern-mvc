@@ -1,6 +1,6 @@
 <?php
 
-namespace Archive\Mvc\Database;
+namespace Mvc\Database;
 
 use PDO;
 

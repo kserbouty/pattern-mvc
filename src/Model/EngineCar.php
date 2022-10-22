@@ -2,13 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Archive\Mvc\Model;
+namespace Mvc\Model;
 
-use Archive\Mvc\Contract\Vehicle;
-use Archive\Mvc\Interface\EngineVehicle;
-use Archive\Mvc\Database\EngineCarMapper;
-
-require_once __DIR__ . '/../../vendor/autoload.php';
+use Mvc\Contract\Vehicle;
+use Mvc\Contract\EngineVehicle;
+use Mvc\Database\EngineCarMapper;
 
 class EngineCar extends Vehicle implements EngineVehicle
 {
@@ -20,7 +18,8 @@ class EngineCar extends Vehicle implements EngineVehicle
         public int $discount,
         public ?string $serial,
         public string $engine
-    ) {
+    )
+    {
         parent::__construct(
             $manufacturer,
             $model,
@@ -74,7 +73,7 @@ class EngineCar extends Vehicle implements EngineVehicle
             $price,
             $tax,
             $discount
-        );
+            );
         return $price->amount;
     }
 

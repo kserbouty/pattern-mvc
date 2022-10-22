@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Archive\Mvc\Model;
+namespace Mvc\Model;
 
 class Price
 {

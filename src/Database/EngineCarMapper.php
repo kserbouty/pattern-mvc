@@ -1,12 +1,10 @@
 <?php
 
-namespace Archive\Mvc\Database;
-
-require_once __DIR__ . '/../../vendor/autoload.php';
+namespace Mvc\Database;
 
 use PDO;
-use Archive\Mvc\Model\EngineCar;
-use Archive\Mvc\Interface\CarMapper;
+use Mvc\Model\EngineCar;
+use Mvc\Contract\CarMapper;
 
 class EngineCarMapper implements CarMapper
 {
@@ -97,6 +95,6 @@ class EngineCarMapper implements CarMapper
             $rows['discount'],
             $rows['serial'],
             $rows['engine']
-        );
+            );
     }
 }

@@ -1,8 +1,6 @@
 <?php
 
-use Archive\Mvc\Controller\EngineCarController;
-
-require_once __DIR__ . '/../../vendor/autoload.php';
+use Mvc\Controller\EngineCarController;
 
 ?>
 

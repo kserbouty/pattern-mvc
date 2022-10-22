@@ -1,6 +1,6 @@
 <?php
 
-namespace Archive\Mvc\Interface;
+namespace Mvc\Contract;
 
 interface EngineVehicle
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Archive\Mvc\Contract;
+namespace Mvc\Contract;
 
 abstract class Vehicle
 {
