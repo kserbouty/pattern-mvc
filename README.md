@@ -1,16 +1,4 @@
-# MVC PHP
-
-- [MVC PHP](#mvc-php)
-  - [Introduction](#introduction)
-  - [Installation](#installation)
-    - [Requirements](#requirements)
-    - [Local Installation](#local-installation)
-  - [Authors](#authors)
-  - [License](#license)
-
-## Introduction
-
-Vehicle purchase module in order to associate MVC with others patterns.
+# MVC & Dependency Injection with PHP
 
 ## Installation
 
@@ -32,10 +20,10 @@ Vehicle purchase module in order to associate MVC with others patterns.
 composer install && composer dumpautoload -o
 ```
 
-4° Run your server on <http://localhost:8003>
+4° Run your server on <http://localhost:8000>
 
 ```bash
-php -S localhost:8003 -t public
+php -S localhost:8000 -t public
 ```
 
 ## Authors
