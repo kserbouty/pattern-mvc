@@ -1,34 +1,44 @@
-# MVC & Dependency Injection with PHP
+# MVC pattern with dependency injection
+
+---
+
+## Requirements
+
+- Apache Server 2.4+
+- PHP 8.1+
+- MySQL 8+
 
 ## Installation
 
-### Requirements
+Clone the repository
 
-- Apache Server >=2.4
-- PHP >=8.1
-- MySQL >=8.0
+```bash
+git clone https://github.com/kserbouty/pattern-mvc.git
+```
 
-### Local Installation
+Switch to the repository folder
 
-1° Import the database.sql in your environment
+```bash
+cd pattern-mvc
+```
 
-2° Set your database in the config.ini
+Import the database.sql in your environment, then set your credentials in the config.ini.
 
-3° Install the autoloader
+Install all the dependencies using composer
 
 ```bash
 composer install && composer dumpautoload -o
 ```
 
-4° Run your server on <http://localhost:8000>
+Run the local server
 
 ```bash
-php -S localhost:8000 -t public
+php -S localhost:8000-t public
 ```
 
-## Authors
+The website can be accessed on <http://localhost:8000>
 
-Karim Serbouty
+---
 
 ## License
 
